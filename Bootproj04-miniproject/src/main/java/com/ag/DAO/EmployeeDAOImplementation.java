@@ -18,6 +18,7 @@ import com.ag.modals.Employee;
 public class EmployeeDAOImplementation implements IEmployeeDAO
 {
 	private static final String GET_EMPS_DATA = "SELECT * FROM emp WHERE edesg IN (?, ?, ?) ORDER BY edesg";
+	private static final String INSERT_EMP = "insert into emp values(SEQUENCE1,?,?,?,?,?)";
 	
 	@Autowired
 	private DataSource ds; // HAS_A property
@@ -74,6 +75,8 @@ public class EmployeeDAOImplementation implements IEmployeeDAO
 		
 		return list;
 	}
+	
+	
 	
 	
 }

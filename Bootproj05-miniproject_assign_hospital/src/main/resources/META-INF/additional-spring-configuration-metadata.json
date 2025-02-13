@@ -1,0 +1,27 @@
+{"properties": [
+  {
+    "name": "log4j.appender.R.File",
+    "type": "java.lang.String",
+    "description": "A description for 'log4j.appender.R.File'"
+  },
+  {
+    "name": "log4j.rootLogger",
+    "type": "java.lang.String",
+    "description": "A description for 'log4j.rootLogger'"
+  },
+  {
+    "name": "log4j.appender.R.append",
+    "type": "java.lang.String",
+    "description": "A description for 'log4j.appender.R.append'"
+  },
+  {
+    "name": "log4j.appender.R.layout",
+    "type": "java.lang.String",
+    "description": "A description for 'log4j.appender.R.layout'"
+  },
+  {
+    "name": "log4j.rootLogger",
+    "type": "java.lang.String",
+    "description": "A description for 'log4j.rootLogger'"
+  }
+]}
